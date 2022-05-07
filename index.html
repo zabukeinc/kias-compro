@@ -12,151 +12,13 @@
 
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/why-us.css" />
   <link rel="shortcut icon" type="ico" href="images/favicon.ico" />
+
   <style>
     @media screen and (max-width: 768px) {
       #colorlib-main {
         padding: 0px;
-      }
-    }
-
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-
-    // iOS Reset 
-    input {
-      appearance: none;
-      border-radius: 0;
-    }
-
-    .card {
-      font-family: "DM Sans", sans-serif;
-      margin: 2rem auto;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      max-width: 425px;
-      background-color: #FFF;
-      border-radius: 10px;
-      box-shadow: 0 10px 20px 0 rgba(#999, .25);
-      padding: .75rem;
-    }
-
-    .card-image {
-      border-radius: 8px;
-      overflow: hidden;
-      padding-bottom: 65%;
-      background-image: url('https://assets.codepen.io/285131/coffee_1.jpg');
-      background-repeat: no-repeat;
-      background-size: 150%;
-      background-position: 0 5%;
-      position: relative;
-    }
-
-    .card-heading {
-      position: absolute;
-      left: 10%;
-      top: 15%;
-      right: 10%;
-      font-size: 1.75rem;
-      font-weight: 700;
-      color: #735400;
-      line-height: 1.222;
-
-      small {
-        display: block;
-        font-size: .75em;
-        font-weight: 400;
-        margin-top: .25em;
-      }
-    }
-
-    .card-form {
-      padding: 2rem 1rem 0;
-    }
-
-    .input {
-      display: flex;
-      flex-direction: column-reverse;
-      position: relative;
-      padding-top: 1.5rem;
-
-      &+.input {
-        margin-top: 1.5rem;
-      }
-    }
-
-    .input-label {
-      color: #8597a3;
-      position: absolute;
-      top: 1.5rem;
-      transition: .25s ease;
-    }
-
-    .input-field {
-      border: 0;
-      z-index: 1;
-      background-color: transparent;
-      border-bottom: 2px solid #eee;
-      font: inherit;
-      font-size: 1.125rem;
-      padding: .25rem 0;
-    }
-
-    .input-field:focus,
-    .input-field:valid {
-      outline: 0;
-      border-bottom-color: #60a631;
-    }
-
-    .input-label {
-      color: #60a631;
-      transform: translateY(-1.5rem);
-    }
-
-
-    &:focus,
-    &:valid {
-      outline: 0;
-      border-bottom-color: #60a631;
-
-      &+.input-label {
-        color: #60a631;
-        transform: translateY(-1.5rem);
-      }
-    }
-
-    .action {
-      margin-top: 2rem;
-    }
-
-    .action-button {
-      font: inherit;
-      font-size: 15px;
-      padding: 10px;
-      width: 100%;
-      font-weight: 500;
-      background-color: #60a631;
-      border-radius: 6px;
-      color: #FFF;
-      border: 0;
-    }
-
-    .action-button:focus {
-      outline: 0;
-    }
-
-    .card-info {
-      padding: 1rem 1rem;
-      text-align: center;
-      font-size: .875rem;
-      color: #8597a3;
-    }
-
-    .card-info>a {
-      a {
-        display: block;
-        color: #60a631;
-        text-decoration: none;
       }
     }
   </style>
@@ -190,6 +52,7 @@
     </aside>
 
     <div id="colorlib-main">
+      <!-- START CAROUSEL -->
       <section class="ftco-section pt-4 mb-5 ftco-intro">
         <!-- Carousel -->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -215,11 +78,11 @@
           </a>
         </div>
         <!-- END CAROUSEL -->
+      </section>
+      <!-- END CAROUSEL -->
 
-        <br>
-        <hr>
-        <br>
-
+      <!-- START FORM -->
+      <section class="ftco-section pt-4 mb-5 float-left">
         <div class="col-md-12">
           <div class="col-md-6 float-left">
             <div class="card border-0">
@@ -232,7 +95,7 @@
                 </p>
               </div>
             </div>
-            <img class="card-img w-full h-auto" src="https://hydeliving.co.id/images/illu/interview.png"
+            <img class="card-img w-600 h-auto" src="https://hydeliving.co.id/images/illu/interview.png"
               alt="Image Card">
           </div>
           <div class="col-md-6 float-left">
@@ -270,10 +133,194 @@
             </div>
           </div>
         </div>
-
       </section>
-      <!-- START FORM -->
       <!-- END FORM -->
+
+      <!-- START TESTIMONI -->
+      <br><br><br>
+      <section class="ftco-section pt-4 mb-5 testimonial-container">
+        <h2 class="title text-center">
+          <b>Testimoni</b>
+        </h2>
+        <p class="text-content text-center">
+          Ini dia cerita dari mereka yang sudah berkolaborasi dengan Kias dalam beberapa proyek interior
+        </p>
+
+        <div class="row" style="max-width: 1200px;margin: 0 auto;">
+          <div class="col-md-4 col-sm-12 testi-container-1">
+            <div class="row testi-text-row" style="margin: 0 auto;">
+              <div class="col-md-12 col-sm-12 testimonial-text">
+                <div class="quote"></div>
+                <blockquote>
+                  <p>When it comes to finding the right music, speed is always the key and that’s why I love TuneReel’s
+                    Music Finder function. It’s such a quick and easy way to find the music I want without going through
+                    so many filters. It has helped me speed up my search process significantly!</p>
+                </blockquote>
+              </div>
+              <!--testimonial-text-->
+            </div>
+            <!--testi-text-row-->
+            <div class="row name-small-row" style="margin: 0 auto;">
+              <div class="col-md-6 col-sm-12 name-small">
+                <p>Eric Won / Film and Video
+                  Editor</p>
+              </div>
+              <div class="col-md-6 col-sm-12 image-cont-1">
+                <div class="thumb thumb1"> </div>
+              </div>
+            </div>
+            <!---name-small-row-->
+          </div>
+          <div class="col-md-4 col-sm-12 testi-container-1">
+            <div class="row testi-text-row" style="margin: 0 auto;">
+              <div class="col-md-12 col-sm-12 testimonial-text">
+                <div class="quote"></div>
+                <blockquote>
+                  <p>When it comes to finding the right music, speed is always the key and that’s why I love TuneReel’s
+                    Music Finder function. It’s such a quick and easy way to find the music I want without going through
+                    so many filters. It has helped me speed up my search process significantly!</p>
+                </blockquote>
+              </div>
+              <!--testimonial-text-->
+            </div>
+            <!--testi-text-row-->
+            <div class="row name-small-row" style="margin: 0 auto;">
+              <div class="col-md-6 col-sm-12 name-small">
+                <p>Eric Won / Film and Video
+                  Editor</p>
+              </div>
+              <div class="col-md-6 col-sm-12 image-cont-1">
+                <div class="thumb thumb1"> </div>
+              </div>
+            </div>
+            <!---name-small-row-->
+          </div>
+          <div class="col-md-4 col-sm-12 testi-container-1">
+            <div class="row testi-text-row" style="margin: 0 auto;">
+              <div class="col-md-12 col-sm-12 testimonial-text">
+                <div class="quote"></div>
+                <blockquote>
+                  <p>When it comes to finding the right music, speed is always the key and that’s why I love TuneReel’s
+                    Music Finder function. It’s such a quick and easy way to find the music I want without going through
+                    so many filters. It has helped me speed up my search process significantly!</p>
+                </blockquote>
+              </div>
+              <!--testimonial-text-->
+            </div>
+            <!--testi-text-row-->
+            <div class="row name-small-row" style="margin: 0 auto;">
+              <div class="col-md-6 col-sm-12 name-small">
+                <p>Eric Won / Film and Video
+                  Editor</p>
+              </div>
+              <div class="col-md-6 col-sm-12 image-cont-1">
+                <div class="thumb thumb1"> </div>
+              </div>
+            </div>
+            <!---name-small-row-->
+          </div>
+          <!---Testi-container-1-->
+        </div>
+        <!---Row--->
+      </section>
+      <!-- END TESTIMONI -->
+
+      <!-- START PROS -->
+      <section class="ftco-section pt-4 mb-5 text" style="margin: 0 auto;">
+        <h2 class="text-center title">
+          <b>Langkah Wujudkan Hunian Idaman</b>
+        </h2>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      Quality of Design
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id
+                      pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac
+                      justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur
+                      molestie eros. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                      href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Quality of End-Product
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id
+                      pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac
+                      justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur
+                      molestie eros. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                      href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Quality of Customer Service
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id
+                      pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac
+                      justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur
+                      molestie eros. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END PROS -->
+
+      <!-- START WHY US -->
+      <section class="light">
+        <h2 class="text-center title">
+          <b>Mengapa Kias?</b>
+        </h2>
+        <div class="container py-2">
+          <article class="postcard light green">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+            </a>
+            <div class="postcard__text t-dark">
+              <!-- <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1> -->
+              <div class="postcard__subtitle small">
+                <!-- <time datetime="2020-05-25 12:00:00">
+                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                </time> -->
+              </div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+                fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus
+                nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
+                adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum
+                quos!</div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- END WHY US -->
     </div>
   </div>
 
@@ -299,6 +346,12 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    window.FontAwesomeConfig = {
+      searchPseudoElements: true
+    }
+  </script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>

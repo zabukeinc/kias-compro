@@ -38,10 +38,18 @@ body::selection {
 .title-divider {
   width:100%;
   margin-bottom:30px;
+  margin: 0 auto;
   margin-top:30px;
-  background-color:#2C5F2D;
-  color:#FFF;
+  text-align: center;
+  /* background-color:#2C5F2D; */
+  /* border-bottom: 1px solid #2C5F2D;; */
+  /* color:#000; */
   padding:5px;
+}
+
+.title-divider::after {
+  border-bottom: 1px solid #2C5F2D;;
+  color:#000;
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -213,6 +221,9 @@ body::selection {
 }
 
 @media screen and (max-width: 480px) {
+  .filter-content {
+    
+  }
   .testimoni-title {
     width:100%;
     margin-bottom:30px;

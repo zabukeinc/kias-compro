@@ -38,7 +38,7 @@
             })
             //zoom 
             imgZoom.addEventListener('mouseenter', function(){
-                this.style.backgroundSize = '250%';
+                this.style.backgroundSize = '150%';
             })
             //Mouse address in zoom class
             imgZoom.addEventListener('mousemove', function(e){

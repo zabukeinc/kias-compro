@@ -6,7 +6,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css" />
+  <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -14,8 +18,30 @@
   <link rel="stylesheet" href="css/custom.css" />
   <link rel="stylesheet" href="css/why-us.css" />
   <link rel="shortcut icon" type="ico" href="images/favicon.ico" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+    rel="stylesheet"
+  />
 
   <style>
+    .this {
+      background-color: #;
+    }
+
+    .slick-prev:before {
+      color: #000;
+    }
+
+    .slick-next:before {
+      color: #000;
+    }
+
     @media screen and (max-width: 768px) {
       #colorlib-main {
         padding: 0px;
@@ -43,8 +69,8 @@
         <ul>
           <li><img src="images/kias_logo.png" alt="Logo Kias" class="img-fluid text-center" height="50" width="50"></li>
           <li class="colorlib-active"><a href="index.html">Home</a></li>
-          <li><a href="project.html">Project</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
           <li><a href="product.html">Products</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -83,18 +109,14 @@
 
       <!-- START FORM -->
       <section class="ftco-section pt-4 mb-5 float-left">
+        <h2 class="title text-center title-divider">
+          <b>Talk to us!</b>
+        </h2>
+        <p class="text-content text-center">
+          Register your project here and we will contact you within 24 hours.
+        </p>
         <div class="col-md-12">
           <div class="col-md-6 float-left">
-            <div class="card border-0">
-              <div class="card-img-overlay text-black d-flex flex-column justify-content-center">
-                <p class="card-text">
-                <h2 class="title text-center">
-                  <b>Talk to us!</b>
-                </h2>
-                Isi formulir di samping dan tunggu panggilan kami.
-                </p>
-              </div>
-            </div>
             <img class="card-img w-600 h-auto" src="https://hydeliving.co.id/images/illu/interview.png"
               alt="Image Card">
           </div>
@@ -139,87 +161,86 @@
       <!-- START TESTIMONI -->
       <br><br><br>
       <section class="ftco-section pt-4 mb-5 testimonial-container">
-        <h2 class="title text-center">
-          <b>Testimoni</b>
-        </h2>
-        <p class="text-content text-center">
-          Ini dia cerita dari mereka yang sudah berkolaborasi dengan Kias dalam beberapa proyek interior
-        </p>
-
-        <div class="row" style="max-width: 1200px;margin: 0 auto;">
-          <div class="col-md-4 col-sm-12 testi-container-1">
-            <div class="row testi-text-row" style="margin: 0 auto;">
-              <div class="col-md-12 col-sm-12 testimonial-text">
-                <div class="quote"></div>
-                <blockquote>
-                  <p>When it comes to finding the right music, speed is always the key and that’s why I love TuneReel’s
-                    Music Finder function. It’s such a quick and easy way to find the music I want without going through
-                    so many filters. It has helped me speed up my search process significantly!</p>
-                </blockquote>
+        <div class="row">
+          <div class="container">
+            <h2 class="title text-center title-divider">
+              <b>Testimoni</b>
+            </h2>
+            <p class="text-content text-center px-4">
+              Ini dia cerita dari mereka yang sudah berkolaborasi dengan Kias dalam beberapa proyek interior
+            </p>
+            <div class="testimoni-slider">
+              <div>
+                <article class="postcard light green">
+                  <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+                  <div class="postcard__text t-dark">
+                    <h1 class="postcard__title green">Mr. X</h1>
+                    <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                      </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt text-content">Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.
+                      Eligendi,
+                      fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius!
+                      Ducimus
+                      nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
+                      adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi,
+                      illum
+                      quos!</div>
+                  </div>
+                </article>
               </div>
-              <!--testimonial-text-->
+              <div>
+                <article class="postcard light green">
+                  <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+                  <div class="postcard__text t-dark">
+                    <h1 class="postcard__title green">Mrs. Y</h1>
+                    <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                      </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt text-content">Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.
+                      Eligendi,
+                      fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius!
+                      Ducimus
+                      nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
+                      adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi,
+                      illum
+                      quos!</div>
+                  </div>
+                </article>
+              </div>
+              <div>
+                <article class="postcard light green">
+                  <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+                  <div class="postcard__text t-dark">
+                    <h1 class="postcard__title green">Mr. X & Mrs. Y</h1>
+                    <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                      </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.
+                      Eligendi,
+                      fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius!
+                      Ducimus
+                      nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
+                      adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi,
+                      illum
+                      quos!</div>
+                  </div>
+                </article>
+              </div>
             </div>
-            <!--testi-text-row-->
-            <div class="row name-small-row" style="margin: 0 auto;">
-              <div class="col-md-6 col-sm-12 name-small">
-                <p>Eric Won / Film and Video
-                  Editor</p>
-              </div>
-              <div class="col-md-6 col-sm-12 image-cont-1">
-                <div class="thumb thumb1"> </div>
-              </div>
-            </div>
-            <!---name-small-row-->
           </div>
-          <div class="col-md-4 col-sm-12 testi-container-1">
-            <div class="row testi-text-row" style="margin: 0 auto;">
-              <div class="col-md-12 col-sm-12 testimonial-text">
-                <div class="quote"></div>
-                <blockquote>
-                  <p>When it comes to finding the right music, speed is always the key and that’s why I love TuneReel’s
-                    Music Finder function. It’s such a quick and easy way to find the music I want without going through
-                    so many filters. It has helped me speed up my search process significantly!</p>
-                </blockquote>
-              </div>
-              <!--testimonial-text-->
-            </div>
-            <!--testi-text-row-->
-            <div class="row name-small-row" style="margin: 0 auto;">
-              <div class="col-md-6 col-sm-12 name-small">
-                <p>Eric Won / Film and Video
-                  Editor</p>
-              </div>
-              <div class="col-md-6 col-sm-12 image-cont-1">
-                <div class="thumb thumb1"> </div>
-              </div>
-            </div>
-            <!---name-small-row-->
-          </div>
-          <div class="col-md-4 col-sm-12 testi-container-1">
-            <div class="row testi-text-row" style="margin: 0 auto;">
-              <div class="col-md-12 col-sm-12 testimonial-text">
-                <div class="quote"></div>
-                <blockquote>
-                  <p>When it comes to finding the right music, speed is always the key and that’s why I love TuneReel’s
-                    Music Finder function. It’s such a quick and easy way to find the music I want without going through
-                    so many filters. It has helped me speed up my search process significantly!</p>
-                </blockquote>
-              </div>
-              <!--testimonial-text-->
-            </div>
-            <!--testi-text-row-->
-            <div class="row name-small-row" style="margin: 0 auto;">
-              <div class="col-md-6 col-sm-12 name-small">
-                <p>Eric Won / Film and Video
-                  Editor</p>
-              </div>
-              <div class="col-md-6 col-sm-12 image-cont-1">
-                <div class="thumb thumb1"> </div>
-              </div>
-            </div>
-            <!---name-small-row-->
-          </div>
-          <!---Testi-container-1-->
         </div>
         <!---Row--->
       </section>
@@ -227,15 +248,11 @@
 
       <!-- START PROS -->
       <section class="ftco-section pt-4 mb-5 text" style="margin: 0 auto;">
-        <h2 class="text-center title">
+        <h2 class="text-center title-divider">
           <b>Langkah Wujudkan Hunian Idaman</b>
         </h2>
-        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam at maxime doloribus illum
-          eaque repellendus voluptatem ab, molestiae amet laborum ducimus? Obcaecati consequuntur eos, est sed quaerat
-          optio! Facilis, explicabo?</p>
         <div class="row">
           <div class="col-md-12">
-
             <!-- START WIZARD -->
             <section class="signup-step-container">
               <div class="container">
@@ -270,8 +287,10 @@
                             <h4 class="text-center">Step 1</h4>
                             <div class="row">
                               <!-- CONTENT STEP 1 -->
-                              <p class="project-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi ad magnam suscipit, a asperiores explicabo harum accusamus nihil, fuga, minus voluptatibus labore autem ex. Consequatur animi temporibus esse dolor!
+                              <p class="text-content px-4">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi ad magnam
+                                suscipit, a asperiores explicabo harum accusamus nihil, fuga, minus voluptatibus labore
+                                autem ex. Consequatur animi temporibus esse dolor!
                               </p>
                             </div>
                           </div>
@@ -279,8 +298,10 @@
                             <h4 class="text-center">Step 2</h4>
                             <div class="row">
                               <!-- CONTENT STEP 2 -->
-                              <p class="project-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi ad magnam suscipit, a asperiores explicabo harum accusamus nihil, fuga, minus voluptatibus labore autem ex. Consequatur animi temporibus esse dolor!
+                              <p class="text-content px-4">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi ad magnam
+                                suscipit, a asperiores explicabo harum accusamus nihil, fuga, minus voluptatibus labore
+                                autem ex. Consequatur animi temporibus esse dolor!
                               </p>
                             </div>
                           </div>
@@ -288,8 +309,10 @@
                             <h4 class="text-center">Step 3</h4>
                             <div class="row">
                               <!-- CONTENT STEP 3 -->
-                              <p class="project-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi ad magnam suscipit, a asperiores explicabo harum accusamus nihil, fuga, minus voluptatibus labore autem ex. Consequatur animi temporibus esse dolor!
+                              <p class="text-content px-4">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi ad magnam
+                                suscipit, a asperiores explicabo harum accusamus nihil, fuga, minus voluptatibus labore
+                                autem ex. Consequatur animi temporibus esse dolor!
                               </p>
                             </div>
                           </div>
@@ -297,8 +320,10 @@
                             <h4 class="text-center">Step 4</h4>
                             <div class="row">
                               <!-- CONTENT STEP 4 -->
-                              <p class="project-description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi ad magnam suscipit, a asperiores explicabo harum accusamus nihil, fuga, minus voluptatibus labore autem ex. Consequatur animi temporibus esse dolor!
+                              <p class="text-content px-4">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi ad magnam
+                                suscipit, a asperiores explicabo harum accusamus nihil, fuga, minus voluptatibus labore
+                                autem ex. Consequatur animi temporibus esse dolor!
                               </p>
                             </div>
                           </div>
@@ -314,64 +339,6 @@
             <!-- END WIZARD -->
 
             <!-- START ACCORDION -->
-            
-
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                  <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                      aria-expanded="true" aria-controls="collapseOne">
-                      Quality of Design
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                  <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id
-                      pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac
-                      justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur
-                      molestie eros. </p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                  <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                      href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Quality of End-Product
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                  <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id
-                      pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac
-                      justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur
-                      molestie eros. </p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                      href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Quality of Customer Service
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id
-                      pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac
-                      justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur
-                      molestie eros. </p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <!-- END ACCORDION -->
           </div>
         </div>
@@ -380,30 +347,145 @@
 
       <!-- START WHY US -->
       <section class="light">
-        <h2 class="text-center title">
+        <h2 class="text-center title-divider">
           <b>Mengapa Kias?</b>
         </h2>
         <div class="container py-2">
-          <article class="postcard light green">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <!-- <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1> -->
-              <div class="postcard__subtitle small">
-                <!-- <time datetime="2020-05-25 12:00:00">
-                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-                </time> -->
-              </div>
-              <div class="postcard__bar"></div>
-              <div class="postcard__preview-txt text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi,
-                fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus
-                nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam
-                adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum
-                quos!</div>
-            </div>
-          </article>
+          <p class="text-content text-center">
+            Jika Anda mencari kualitas desain interior dengan hasil sempurna, maka pencarian Anda berakhir dengan “Kias
+            Design Interior”
+          </p>
+          <table class="table table-hover table-responsive">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="project-title">Harga</p>
+                </td>
+                <td class="this">
+                  <ul>
+                    <li>
+                      <p class="project-description">Transparansi harga sudah dari proses awal</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <p>Pengalaman</p>
+                  </div>
+                </td>
+                <td class="this">
+                  <ul>
+                    <li>
+                      <p class="body_default">Berdiri sejak tahun 2009</p>
+                    </li>
+                    <li>
+                      <p class="body_default">Bagian dari Hyde Co</p>
+                    </li>
+                    <li>
+                      <p class="body_default">500+ proyek terbangun</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <p>Desain</p>
+                  </div>
+                </td>
+                <td class="this">
+                  <ul>
+                    <li>
+                      <p class="body_default">Desainer berpengalaman</p>
+                    </li>
+                    <li>
+                      <p class="body_default">3D visual realistis</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <p>Project Timelines</p>
+                  </div>
+                </td>
+                <td class="this">
+                  <ul>
+                    <li>
+                      <p class="body_default">45 hari sudah instalasi*</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <p>Jaminan</p>
+                  </div>
+                </td>
+                <td class="this">
+                  <ul>
+                    <li>
+                      <p class="body_default">Garansi 2 tahun**</p>
+                    </li>
+                    <li>
+                      <p class="body_default">Tim in-house yang dapat dipercaya</p>
+                    </li>
+                    <li>
+                      <p class="body_default">Alamat dan lokasi kantor yang terpercaya</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <p>Customer Service</p>
+                  </div>
+                </td>
+                <td class="this">
+                  <ul>
+                    <li>
+                      <p class="body_default">Respon cepat dan professional dari tim pelayanan pelanggan melalui
+                        WhatsApp/Telepon</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <p>Perusahaan</p>
+                  </div>
+                </td>
+                <td class="this">
+                  <ul>
+                    <li>
+                      <p class="body_default">Perusahaan berpengalaman lebih dari 10 tahun dengan fokus pada kualitas
+                      </p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <p>Pembayaran</p>
+                  </div>
+                </td>
+                <td class="this">
+                  <ul>
+                    <li>
+                      <p class="body_default">Pembayaran bisa dengan kartu kredit atau berupa cicilan (dalam proses)</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
       <!-- END WHY US -->
@@ -444,6 +526,11 @@
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $('.testimoni-slider').slick();
+  </script>
 </body>
 
 </html>

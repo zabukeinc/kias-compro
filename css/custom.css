@@ -35,6 +35,15 @@ body::selection {
   background-color: #2C5F2D;
 }
 
+.title-divider {
+  width:100%;
+  margin-bottom:30px;
+  margin-top:30px;
+  background-color:#2C5F2D;
+  color:#FFF;
+  padding:5px;
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .custom-nav {
     display: contents;
@@ -204,6 +213,15 @@ body::selection {
 }
 
 @media screen and (max-width: 480px) {
+  .testimoni-title {
+    width:100%;
+    margin-bottom:30px;
+    margin-top:30px;
+    border-bottom: 1px solid #2C5F2D; */
+    background-color:#2C5F2D;
+    color:#FFF;
+    padding:5px;
+  }
   .custom-nav {
     display: contents;
   }
@@ -740,11 +758,11 @@ input {
 .input-field:focus,
 .input-field:valid {
   outline: 0;
-  border-bottom-color: #60a631;
+  border-bottom-color: #2C5F2D;
 }
 
 .input-label {
-  color: #60a631;
+  color: #2C5F2D;
   transform: translateY(-1.5rem);
 }
 
@@ -752,10 +770,10 @@ input {
 &:focus,
 &:valid {
   outline: 0;
-  border-bottom-color: #60a631;
+  border-bottom-color: #2C5F2D;
 
   &+.input-label {
-    color: #60a631;
+    color: #2C5F2D;
     transform: translateY(-1.5rem);
   }
 }
@@ -770,7 +788,7 @@ input {
   padding: 10px;
   width: 100%;
   font-weight: 500;
-  background-color: #60a631;
+  background-color: #2C5F2D;
   border-radius: 6px;
   color: #FFF;
   border: 0;
@@ -790,7 +808,7 @@ input {
 .card-info>a {
   a {
     display: block;
-    color: #60a631;
+    color: #2C5F2D;
     text-decoration: none;
   }
 }
@@ -845,8 +863,8 @@ a:hover,a:focus{
   width: 40px;
   height: 100%;
   line-height: 40px;
-  background: #60a631;
-  border: 1px solid #60a631;
+  background: #2C5F2D;
+  border: 1px solid #2C5F2D;
   border-radius: 3px;
   font-size: 17px;
   color: #fff;
@@ -879,24 +897,21 @@ a:hover,a:focus{
 	background-color: #333;
 }
 .signup-step-container{
-	padding: 150px 0px;
-	padding-bottom: 60px;
+  margin-top:50px;
+  margin-bottom:50px;
 }
 
+.wizard .nav-tabs {
+  position: relative;
+  margin-bottom: 0;
+  border-bottom-color: transparent;
+}
 
-
-
-    .wizard .nav-tabs {
-        position: relative;
-        margin-bottom: 0;
-        border-bottom-color: transparent;
-    }
-
-    .wizard > div.wizard-inner {
-            position: relative;
-    margin-bottom: 50px;
-    text-align: center;
-    }
+.wizard > div.wizard-inner {
+  position: relative;
+  margin-bottom: 50px;
+  text-align: center;
+}
 
 .connecting-line {
     height: 2px;
@@ -937,15 +952,15 @@ span.round-tab i{
     color:#555555;
 }
 .wizard li.active span.round-tab {
-        background: #0db02b;
+        background: #2C5F2D;
     color: #fff;
-    border-color: #0db02b;
+    border-color: #2C5F2D;
 }
 .wizard li.active span.round-tab i{
     color: #5bc0de;
 }
 .wizard .nav-tabs > li.active > a i{
-	color: #0db02b;
+	color: #2C5F2D;
 }
 
 .wizard .nav-tabs > li {
@@ -1011,7 +1026,7 @@ span.round-tab i{
     margin-top: 30px;
 }
 .next-step{
-	background-color: #0db02b;
+	background-color: #2C5F2D;
 }
 .skip-btn{
 	background-color: #cec12d;

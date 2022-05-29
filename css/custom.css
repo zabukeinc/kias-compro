@@ -221,8 +221,8 @@ body::selection {
 }
 
 @media screen and (max-width: 480px) {
-  .filter-content {
-    
+  #colorlib-aside {
+    display: none;
   }
   .testimoni-title {
     width:100%;
@@ -402,7 +402,7 @@ body::selection {
 
 @media screen and (min-width: 769px) {
   .custom-nav {
-    display:none;
+    display:none !important;
   }
   .people-detail-position {
     font-size: 13px;
@@ -669,6 +669,9 @@ blockquote {
 }
 
 @media (max-width:760px){
+  #colorlib-aside {
+    display: none !important;
+  }
   .testimonial-text p {
     min-height: unset;
   }
@@ -1192,9 +1195,14 @@ input[type="checkbox"]:checked::before{
 
 
 
-
+@media (max-width: 991.98px) {
+  .col
+}
 
 @media (max-width: 767px){
+  #colorlib-aside {
+    display: none;
+  }
 	.sign-content h3{
 		font-size: 40px;
 	}
